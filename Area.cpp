@@ -25,5 +25,9 @@
 //}
 
 Area::Area(double len, double wid):length(len), width(wid){
-    std::cout << length << width;
+    std::cout << length << width << "\n";
+}
+
+Area::~Area(){
+    std::cout << "Object deleted \n" ;
 }
