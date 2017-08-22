@@ -14,13 +14,16 @@
 //
 //}
 
-Area::Area(double len, double wid){
-    std::cout << "area of rectangle = " << 2*(len + wid) << "\n";
-    
-}
+//Area::Area(double len, double wid){
+//    std::cout << "area of rectangle = " << 2*(len + wid) << "\n";
+//
+//}
 
 //Area::Area(double rad){
 //    std::cout << "area of radius = " << 3.14*pow(rad,2) << "\n";
 //    
 //}
 
+Area::Area(double len, double wid):length(len), width(wid){
+    std::cout << length << width;
+}

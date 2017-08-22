@@ -16,9 +16,8 @@ public:
     double length, width, area, radius;
     void calculateArea(double);
     Area();    // Default constructor
-    Area(double len);  // Parameterized constructor
-    
-    
+//    Area(double len);  // Parameterized constructor
+    Area(double len, double wid);    // Parameterized constructor with initialization
 };
 
 #endif /* Area_hpp */
